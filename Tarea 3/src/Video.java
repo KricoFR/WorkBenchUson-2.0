@@ -1,12 +1,12 @@
-public class Video extends ArchivoNuve implements Compartible {
+public class Video extends ArchivoNube implements Compartible {
 
-    public Video(Strings nombre, double tamanio) {
+    public Video(String nombre, double tamanio) {
         super(nombre, tamanio);
     }
 
     @Override
     public String open() {
-        return "Abriendo el video " + tris.nombre;
+        return "Abriendo el video " + this.nombre;
     }
 
     @Override

@@ -1,5 +1,5 @@
 //===================================================
-public abstract clas ArchivoNube {
+public abstract class ArchivoNube {
     protected String nombre;
     protected double tamanio;
 
